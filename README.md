@@ -8,7 +8,7 @@ This project aims to predict future demand for electronic components and spare p
 
 # Tech Stack
 •	Programming Language: Python 3.x
-•	Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels, xgboost, prophet
+•	Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels, xgboost algorithm. 
 •	Environment: Jupyter Notebook / VS Code
 •	Deployment: Flask / FastAPI (optional for API integration)
 
@@ -36,7 +36,7 @@ Additional Features: Lead time, Seasonality indicators, Promotions, Macroeconomi
 # Approach
 1.	Data Cleaning & Preprocessing - Handle missing values, outliers, and anomalies.
 2.	Feature Engineering - Create lag features, rolling averages, and seasonality indicators.
-3.	Modeling - Compare models: ARIMA, Prophet, XGBoost, LSTM.
+3.	Models: XGBoost.
 4.	Evaluation - Metrics: RMSE, MAPE, MAE.
 5.	Deployment - Build API or dashboard for real-time forecasting.
 
@@ -57,7 +57,6 @@ SKU-level predictions in CSV format.
 
 # Future Enhancements
 •	Incorporate external data (market trends, supplier lead times).
-•	Implement deep learning models (LSTM/Transformer).
 •	Build interactive dashboard using Streamlit or Power BI.
 
 # Business Impact & Use Cases
